@@ -117,7 +117,7 @@ a {
 }
 
 a:hover {
-	color: #2D72D9;
+	color: #FEBB06;
 }
 
 #container {
@@ -246,6 +246,9 @@ footer a {
 	color: #18AF90;
 }
 
+.red {
+    color: #d03737;   
+}
 
 /*------ MEDIA QUERIES ------*/
 
