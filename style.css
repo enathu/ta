@@ -62,7 +62,7 @@ table {
 
 body {
 	background: #e6e8ed;
-	font-family: "Lato";
+	font-family: "Karla";
 	color: #848a91;
 	-webkit-animation-name: bodyAnim;
     -moz-animation-name: bodyAnim;
@@ -159,7 +159,7 @@ header nav a {
 #intro {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Merriweather";
+	font-family: "Karla";
 	font-size: 15px;
 }
 
@@ -167,10 +167,102 @@ header nav a {
 	line-height: 2;
 }
 
+#intro h5 {
+	font-size: 18px;
+    line-height: 2;
+}
+
+#intro a {
+    border-bottom: 2px solid #feda00;
+}
+
+#intro a:hover {
+    border-bottom: none;
+}
+
+#intro ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+#intro li {
+    line-height: 2em;
+    
+}
+
+/* Side Projects */
+
+#side-projects {
+	padding: 45px 0;
+	border-bottom: 1px solid #e6e8ed;
+	font-family: "Karla";
+	font-size: 15px;
+}
+
+#side-projects p {
+	line-height: 2;
+}
+
+#side-projects h5 {
+	font-size: 18px;
+    line-height: 2;
+}
+
+#side-projects a {
+    border-bottom: 2px dotted #feda00;
+}
+
+#side-projects a:hover {
+    border-bottom: none;
+}
+
+#side-projects ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+#side-projects li {
+    line-height: 2em;
+    
+}
+
+
+.tamil {
+    font-size: 13px;
+}
+/* Social */
+
+#social {
+	padding: 45px 0;
+	border-bottom: 1px solid #e6e8ed;
+	font-family: "Karla";
+	font-size: 15px;
+}
+
+#social p {
+	line-height: 2;
+    text-align: center;
+}
+
+#social h5 {
+	line-height: 2;
+    font-size: 18px;
+    text-align: center;
+}
+
 /*------ THUMBNAILS ------*/
 
 #thumbnails {
 	margin-top: 55px;
+}
+
+#thumbnails h5 {
+	line-height: 2;
+    font-size: 18px;
+    text-align: center;
+    font-family: Karla;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 #thumbnails ul li {
@@ -238,7 +330,7 @@ footer a {
 }
 
 .popup p {
-	line-height: 1.5;
+	line-height: 2;
 	margin-bottom: 20px;
 }
 

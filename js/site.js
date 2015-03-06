@@ -8,7 +8,7 @@ $(document).ready(function() {
 		});
 			
 		$('#thumbnails ul').html(html.join(''));
-	}, {page: 1, per_page: 30});
+	}, {page: 1, per_page: 3});
 
 
 	$('a#about').click(function () {
