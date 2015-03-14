@@ -57,13 +57,23 @@ table {
     font-weight:400;
 }
 
+@font-face {
+    font-family: 'alicenormal';
+    src: url('fonts/src/testfonts/Alice-Normal.otf'); format('opentype');
+    src: url('fonts/src/testfonts/alice-normal-webfont.woff') format('woff'),
+         url('fonts/src/testfonts/alice-normal-webfont.ttf') format('truetype'),
+         url('fonts/src/testfonts/alice-normal-webfont.svg#alicenormal') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 /*------ GENERAL ------*/
 
 body {
 	background: #e6e8ed;
-	font-family: "Karla";
-	color: #848a91;
+	font-family: "alicenormal";
+	color: #343536;
 	-webkit-animation-name: bodyAnim;
     -moz-animation-name: bodyAnim;
     -ms-animation-name: bodyAnim;
@@ -159,7 +169,7 @@ header nav a {
 #intro {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Karla";
+	font-family: "alicenormal";
 	font-size: 15px;
 }
 
@@ -195,7 +205,7 @@ header nav a {
 #side-projects {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Karla";
+	font-family: "alicenormal";
 	font-size: 15px;
 }
 
@@ -235,7 +245,7 @@ header nav a {
 #social {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Karla";
+	font-family: "alicnormal";
 	font-size: 15px;
 }
 
@@ -260,7 +270,7 @@ header nav a {
 	line-height: 2;
     font-size: 18px;
     text-align: center;
-    font-family: Karla;
+    font-family: 'alicenormal';
     text-align: center;
     padding-bottom: 30px;
 }
