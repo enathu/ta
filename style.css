@@ -94,6 +94,16 @@ body {
 	-ms-animation-duration: 0.5s;
 	-o-animation-duration: 0.5s;
 	animation-duration: 0.5s; 
+    font-size: 17px;
+	font-size-adjust: 0.50;
+	text-align: left;
+	margin: 2rem 0 2rem;
+	-moz-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
+	-moz-font-feature-settings:"kern=1, liga=1, dlig=1"; 
+	-ms-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
+	-o-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
+	-webkit-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
+	font-feature-settings:"kern" 1, "liga" 1, "dlig" 1;
 }
 
 @-webkit-keyframes bodyAnim {
