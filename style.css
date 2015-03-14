@@ -67,6 +67,23 @@ table {
     font-style: normal;
 }
 
+/* HTML stuff */
+
+html {
+	-webkit-font-smoothing: subpixel-antialiased;
+	text-rendering: optimizeLegibility;
+
+/* 
+	-webkit-font-smoothing: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
+ */
+
+/*
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+*/
+}
 
 /*------ GENERAL ------*/
 
