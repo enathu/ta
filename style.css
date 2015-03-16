@@ -202,6 +202,11 @@ header nav a {
 
 #intro p {
 	line-height: 2;
+    font-weight: 400;
+}
+
+#intro p em {
+    font-style: italic;
 }
 
 #intro h5 {
