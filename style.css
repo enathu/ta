@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Domine:400,700);
+
 @charset "UTF-8";
 
 /*------ CSS RESET ------*/
@@ -57,16 +59,6 @@ table {
     font-weight:400;
 }
 
-@font-face {
-    font-family: 'Alegreya';
-    src: url('fonts/Alice-Normal.otf'); format('opentype');
-    src: url('fonts/alice-normal-webfont.woff') format('woff'),
-         url('fonts/alice-normal-webfont.ttf') format('truetype'),
-         url('fonts/alice-normal-webfont.svg#Alegreya') format('svg');
-    font-weight: 400;
-    font-style: normal;
-}
-
 /* HTML stuff */
 
 html {
@@ -89,7 +81,8 @@ html {
 
 body {
 	background: #e6e8ed;
-	font-family: "Alegreya";
+	font-family: "Domine";
+    font-weight: 400;
 	color: #343536;
 	-webkit-animation-name: bodyAnim;
     -moz-animation-name: bodyAnim;
@@ -111,7 +104,7 @@ body {
 	-ms-animation-duration: 0.5s;
 	-o-animation-duration: 0.5s;
 	animation-duration: 0.5s; 
-    font-size: 17px;
+    font-size: 15px;
 	font-size-adjust: 0.50;
 	text-align: left;
 	-moz-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
@@ -195,8 +188,9 @@ header nav a {
 #intro {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Alegreya";
+	font-family: "Domine";
 	font-size: 16px;
+    font-weight: 700;
 }
 
 #intro p {
@@ -243,7 +237,7 @@ header nav a {
 #side-projects {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Alegreya";
+	font-family: "Domine";
 	font-size: 15px;
 }
 
@@ -283,7 +277,7 @@ header nav a {
 #social {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Alegreya";
+	font-family: "Domine";
 	font-size: 15px;
 }
 
@@ -308,7 +302,7 @@ header nav a {
 	line-height: 2;
     font-size: 18px;
     text-align: center;
-    font-family: 'Alegreya';
+    font-family: 'Domine';
     text-align: center;
     padding-bottom: 30px;
 }
