@@ -183,6 +183,15 @@ header nav a {
 	margin-left: 20px;
 }
 
+::selection {
+  background: #FEC901; /* WebKit/Blink Browsers */
+  color: #fff;
+}
+::-moz-selection {
+  background: #FEC901; /* Gecko Browsers */
+    color: #fff;
+}
+
 /*------ INTRO ------*/
 
 #intro {
