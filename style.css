@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Domine:400,700);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400,700);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,400,700);
 
 @charset "UTF-8";
 
@@ -81,7 +82,7 @@ html {
 
 body {
 	background: #e6e8ed;
-	font-family: "Domine";
+	font-family: "Alegreya";
     font-weight: 400;
 	color: #343536;
 	-webkit-animation-name: bodyAnim;
@@ -104,7 +105,7 @@ body {
 	-ms-animation-duration: 0.5s;
 	-o-animation-duration: 0.5s;
 	animation-duration: 0.5s; 
-    font-size: 15px;
+    font-size: 16px;
 	font-size-adjust: 0.50;
 	text-align: left;
 	-moz-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
@@ -197,8 +198,8 @@ header nav a {
 #intro {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Domine";
-	font-size: 16px;
+	font-family: "Alegreya";
+	font-size: 18px;
     font-weight: 700;
 }
 
@@ -208,17 +209,13 @@ header nav a {
 }
 
 #intro p em {
+    font-family: Alegreya;
     font-style: italic;
+    font-size: 20px;
 }
 
 #intro h3 {
-	font-size: 24px;
-    line-height: 2;
-    font-weight: 700;
-}
-
-#intro h5 {
-	font-size: 22px;
+	font-size: 28px;
     line-height: 2;
     font-weight: 700;
 }
@@ -246,7 +243,7 @@ header nav a {
 #side-projects {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Domine";
+	font-family: "Alegreya";
 	font-size: 15px;
 }
 
@@ -265,6 +262,10 @@ header nav a {
 
 #side-projects a:hover {
     border-bottom: none;
+    background: #FEBB06;
+    color: #fff;
+    padding: 3px;
+    
 }
 
 #side-projects ul {
@@ -279,14 +280,14 @@ header nav a {
 
 
 .tamil {
-    font-size: 13px;
+    font-size: 12px;
 }
 /* Social */
 
 #social {
 	padding: 45px 0;
 	border-bottom: 1px solid #e6e8ed;
-	font-family: "Domine";
+	font-family: "Alegreya";
 	font-size: 15px;
 }
 
@@ -311,7 +312,7 @@ header nav a {
 	line-height: 2;
     font-size: 18px;
     text-align: center;
-    font-family: 'Domine';
+    font-family: 'Alegreya';
     text-align: center;
     padding-bottom: 30px;
 }
@@ -332,6 +333,40 @@ header nav a {
 }
 
 #thumbnails ul a img:hover {
+	opacity: 0.85;
+}
+
+/* --------------- Works ----------*/
+
+#works {
+	margin-top: 55px;
+}
+
+#works h5 {
+	line-height: 2;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Alegreya';
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#works ul li {
+	display: inline;
+}
+
+#works ul a img {
+	-o-transition:all .2s ease-out, background 0.5s ease-in;
+	-ms-transition:all .2s ease-out, background 0.5s ease-in;
+	-moz-transition:all .2s ease-out, background 0.5s ease-in;
+	-webkit-transition:all .2s ease-out, background 0.5s ease-in;
+	transition:all .2s ease-out, background 0.5s ease-in;
+	margin: -2px 0 0 0px;
+	width: 286px;
+	height: 215px;
+}
+
+#works ul a img:hover {
 	opacity: 0.85;
 }
 
