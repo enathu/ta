@@ -262,7 +262,7 @@ header nav a {
 }
 
 #side-projects a {
-    border-bottom: 2px dotted #feda00;
+    border-bottom: 1px dotted #feda00;
 }
 
 #side-projects a:hover {
@@ -305,6 +305,18 @@ header nav a {
 	line-height: 2;
     font-size: 18px;
     text-align: center;
+}
+
+#social a {
+    border-bottom: 1px dotted #feda00;
+}
+
+#social a:hover {
+    border-bottom: none;
+    background: #FEBB06;
+    color: #fff;
+    padding: 3px;
+    
 }
 
 /*------ THUMBNAILS ------*/
