@@ -265,7 +265,8 @@ header nav a {
 }
 
 #side-projects a:hover {
-    border-bottom: none;
+    border:1px dashed #000;
+    border-radius: 20px;
     background: #FEBB06;
     color: #fff;
     padding: 3px;
