@@ -181,8 +181,7 @@ header a#logo {
 header nav {
 	float: right;
 	font-weight: 400;
-	font-family: Typicons;
-	font-size: 26px;
+	font-size: 14px;
 }
 
 header nav a {
