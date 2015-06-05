@@ -262,7 +262,7 @@ header nav a {
 }
 
 #side-projects a {
-    border-bottom: 1px dotted #feda00;
+    border-bottom: 1px dashed #feda00;
 }
 
 #side-projects a:hover {
@@ -308,7 +308,7 @@ header nav a {
 }
 
 #social a {
-    border-bottom: 1px dotted #feda00;
+    border-bottom: 1px dashed #feda00;
 }
 
 #social a:hover {
