@@ -784,3 +784,13 @@ textarea:focus{background:#f4f4f4; height:250px;}
     font-size: 11px;
     border-bottom: 1px dashed #fd4;
 }
+
+.drop-cap:first-letter {
+  font-size:4em;
+  line-height:1em;
+  margin:0 0.05em 0em 0;
+  float:left;
+  background:#666;
+  color:#fd1;
+  padding:0 0.1em;
+}
