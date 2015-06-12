@@ -168,7 +168,7 @@ $(document).ready(function(){
 	setTimeout( function(){
 		if($("#site-type").length) {
         $(".typewrite span").typed({
-            strings: ["typography ", "story telling ", "creative direction ", "editorial design ", "graphic design", "typeface design "],
+            strings: ["typography ", "story telling ", "creative direction ", "editorial design ", "graphic design ", "typeface design "],
             typeSpeed: 100,
             backDelay: 500,
             loop: true,
