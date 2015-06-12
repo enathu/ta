@@ -443,7 +443,7 @@
           <div class="contact-two">  
             <p>
               <label for="miniemail">Your email:</label><br />
-              <input name="miniemail" id="miniemail" data-jkit="[validate:required=true;strength=50;error=Please write your email]">
+              <input name="_replyto" id="miniemail" data-jkit="[validate:required=true;strength=50;error=Please write your email]">
             </p>
           </div>  
           
@@ -453,6 +453,8 @@
               <textarea id="message" name="message"></textarea><br/><br/>
               
               <input class="button-submit" name="send" type="submit" value="SUBMIT" />
+              <input type="hidden" name="_next" value="http://thariqueazeez.com/thanks.html" />
+              <input type="hidden" name="_subject" value="New Contact" />
             </p>
           </div>            
             
