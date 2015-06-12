@@ -544,7 +544,7 @@ PORTFOLIO GRID
   width:1170px;
   position:relative;
   margin: 30px auto;
-  overflow:hidden;
+  /*overflow:hidden;*/
 }
 
 #portfolio-sidebar{
@@ -766,4 +766,11 @@ textarea:focus{background:#f4f4f4; height:250px;}
 .gray {
     background: #f1f1f1;
     padding: 20px 0;
+}
+
+.quote {
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 11px;
+    border-bottom: 1px dashed #fd4;
 }
