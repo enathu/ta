@@ -422,6 +422,14 @@ CONTENT
   font-weight: 900;
 }
 
+.button-yellow a{
+  border-bottom: none;   
+}
+
+.button-yellow a:hover{
+  border-bottom: none;   
+}
+
 .button-yellow:hover {
    color: #fd4;
     background: #333;
