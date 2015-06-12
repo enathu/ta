@@ -638,8 +638,8 @@ footer{
   letter-spacing: 1px;
   font-size: 12px;
     padding-top: 20px;
-  width: 40%;
-  text-align:center;
+  width: 100%;
+  text-align:left;
   float: left;
 }
 
@@ -647,8 +647,8 @@ footer{
   color: #686868;
   letter-spacing: 1px;
   font-size: 13px;
-  width: 60%;
-  text-align:center;
+  width: 100%;
+  text-align:left;
   float: left;
 }
 
