@@ -769,3 +769,7 @@ textarea:focus{background:#f4f4f4; height:250px;}
 }
 
 
+
+.profile p{
+    text-indent: 2em;
+}
