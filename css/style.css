@@ -423,11 +423,13 @@ CONTENT
 }
 
 .button-yellow a{
-  border-bottom: none;   
+  border-bottom: none;
+    color: #000;
 }
 
 .button-yellow a:hover{
-  border-bottom: none;   
+  border-bottom: none;
+    color: #fd4;
 }
 
 .button-yellow:hover {
