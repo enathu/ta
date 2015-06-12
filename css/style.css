@@ -11,13 +11,13 @@ body{
 
 ::selection {
 		background: #fd0;
-		color: #fff;
+		color: #222;
 		text-shadow: none;
 	}
 	
 	::-moz-selection {
 		background: #fd0;
-		color: #fff;
+		color: #222;
 		text-shadow: none;
 	}
 
