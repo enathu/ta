@@ -436,7 +436,7 @@
           <div class="contact-one">
             <p>
               <label for="miniusername">Your good name:</label><br />
-              <input name="Name" id="miniusername">
+              <input name="Name" placeholder="Your name" id="miniusername">
             </p>
           </div>  
           
@@ -450,9 +450,11 @@
           <div class="contact-three">  
             <p>
               <label>Message:</label><br />
-              <textarea id="message" name="message"></textarea><br/><br/>
+              <textarea id="message" placeholder="Your message" name="message"></textarea><br/><br/>
               
               <input class="button-submit" name="send" type="submit" value="SUBMIT" />
+              <input type="hidden" name="_subject" value="New contact" />
+              <input type="hidden" name="_next" value="http://thariqueazeez.com/thanks.html" />
             </p>
           </div>            
             
