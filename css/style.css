@@ -1,9 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Domine:400,700);
 @import url(http://fonts.googleapis.com/css?family=Sansita+One);
+@import url(http://fonts.googleapis.com/css?family=Lora:400italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body{
-  font-family: 'Domine', sans-serif;
-  font-size:14px;
+  font-family: 'Lora', sans-serif;
+  font-size:16px;
   font-weight: 400;
   overflow-y:scroll;
   -webkit-font-smoothing: antialiased;
@@ -22,9 +24,18 @@ body{
 	}
 
 p{
-  font-family: 'Domine', sans-serif;
-  font-size:14px;
-  font-weight: 400;
+    font-family: 'Lora', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h3 {
+    padding-top: 15px;
+    font-size: 22px;
+    line-height: 44px;
+    font-family: 'Lora', serif;
+    font-style: italic;
 }
 
 a{
@@ -401,12 +412,12 @@ CONTENT
 }
 
 .content .text-intro h1{
-  font-family: 'Sansita One';
-  font-size:36px;
+  font-family: 'Montserrat';
+  font-size:30px;
   width:45%;
   text-transform:uppercase;
   color:#222222;
-  font-weight:400;
+  font-weight:700;
   line-height:62px;
 }
 
@@ -417,9 +428,8 @@ CONTENT
   background: #fd4;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  font-family: 'Domine', sans-serif;
+  font-family: 'Lora', sans-serif;
     text-align: center;
-  font-weight: 900;
 }
 
 .button-yellow a{
@@ -437,13 +447,13 @@ CONTENT
     background: #333;
 }
 
-.content .text-intro p{
-  font-size:15px;
+.content p{
+  font-size:16px;
   color:#313131;
   margin-top:30px;
   font-weight:400;
   line-height:22px;
-  font-style: none;
+  font-style: italic;
   letter-spacing:0.6px;
   width:45%;
 }
