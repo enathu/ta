@@ -400,6 +400,7 @@ CONTENT
   position:relative;
   width:1140px;
   /*margin:50px auto;*/
+    margin-bottom: 50px;
 }
 
 
@@ -407,6 +408,7 @@ CONTENT
   width: 1140px;
   margin-top: 150px;
   margin: 150px auto 0;
+    
 }
 
 .content .text-intro h1{
@@ -785,7 +787,7 @@ textarea:focus{background:#f4f4f4; height:250px;}
 
 .gray {
     background: #f1f1f1;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .quote {
