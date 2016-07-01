@@ -1,0 +1,284 @@
+@import 'https://fonts.googleapis.com/css?family=Pavanam';
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    font-family: 'Pavanam', sans-serif;
+}
+
+#sampleone .content {
+	background-color: #c1c1c1;
+	padding: 5rem 0 10rem 0;
+	background-image: url('../img/cross-scratches.png');
+	background-position: center center;
+}
+
+#sampleone .heading {
+	color: #202319;
+	font-size: 5em;
+	line-height: 1em;
+	letter-spacing: 10px; 
+}
+
+#sampleone .para {
+	width: 650px;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: left;
+		-webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 30px; /* Firefox */
+	column-gap: 30px;
+    font-size: 1em;
+	line-height: 1.8em;	
+}
+
+#sampleone .footnote {
+    margin: 50px auto 0 auto;
+    width: 650px;
+    font-size: 0.8em;
+    padding: 5px;
+    background-color: #000;
+    color: aliceblue;
+    
+}
+
+
+
+/*-----Media Query------*/
+@media only screen and (max-width : 480px) {
+#sampleone .content {
+	background-size: 50%;
+}
+
+#sampleone .para {
+	width: 280px;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	-moz-column-count: 1; /* Firefox */
+	column-count: 1;
+	margin-top: 50px;
+}
+    
+#sampleone .footnote {
+    margin: 50px auto 0 auto;
+    width: 280px;
+    font-size: 0.6em;
+    padding: 5px;
+    background-color: #000;
+    color: aliceblue;
+}
+
+	}
+
+/*-----End Media Query------*/
+
+#sampletwo .content {
+	background-color: #983aa0;
+	padding: 5rem 0 10rem 0;
+	background-image: url('../img/brushed-alum.png');
+	background-position: center center;
+}
+
+#sampletwo .heading {
+	color: #101e2f;
+	font-size: 3em;
+	line-height: 1em;
+	letter-spacing: 10px; 
+}
+
+#sampletwo .para {
+	width: 350px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: left;
+		-webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 30px; /* Firefox */
+	column-gap: 30px;
+    font-size: 1em;
+	line-height: 1.8em;	
+    color: aliceblue;
+}
+
+#sampletwo .para a{
+    color: aqua;
+}
+
+/*-----Media Query------*/
+@media only screen and (max-width : 480px) {
+#sampletwo .content {
+	background-size: 50%;
+}
+
+#sampletwo .para {
+	width: 280px;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	-moz-column-count: 1; /* Firefox */
+	column-count: 1;
+	margin-top: 50px;
+}
+	}
+
+#white .content {
+    background-color: #ffffff;
+	padding: 5rem 0 10rem 0;
+	background-image: url('../img/dust.png');
+	background-position: center center;
+}
+
+#white .quote {
+    width: 500px;
+	color: #20252f;
+	font-size: 4em;
+	line-height: 1.4em;
+    margin-left: auto;
+	margin-right: auto;
+    border: 5px solid #383737;
+    padding: 30px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width : 480px) {
+#white .content {
+	background-size: 50%;
+}
+
+#white .quote {
+	width: 280px;
+	color: #20252f;
+	font-size: 2em;
+	line-height: 1.2em;
+    margin-left: auto;
+	margin-right: auto;
+    border: 3px solid #383737;
+    padding: 30px;
+}
+
+	}
+/* End Media Query */
+
+#samplethree .content {
+	background-color: #211712;
+	padding: 15rem 0 12rem 0;
+    background-image: url('../img/carbon-fibre-big.png');
+	background-position: center center;
+}
+
+#samplethree .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+	margin-top: 75px;
+	width: 90%;
+}
+
+#samplethree .back {
+	font-size: 10vw;
+	line-height: 1.25em;
+	color: #263140;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: .4;
+
+}
+
+#samplethree .front {
+	letter-spacing: 5px;
+	font-size: 2.15vw;
+	line-height: 1.75em;
+	text-align: center;
+	color: #dafd16;
+	width: 40vw;
+	height: 40vw;
+	padding: 4vw 8vw 8vw 8vw;
+	position: absolute;
+	top: 20%;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media only screen and (max-width : 768px) {
+
+	#samplethree .front {
+	letter-spacing: 5px;
+	font-size: 3.5vw;
+	line-height: 1.75em;
+	color: #dafd16;
+	width: 60vw;
+	height: 60vw;
+	padding: none;
+	position: absolute;
+	top: 20%;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+
+#samplefour .content {
+	background-color: #e8f581;
+	padding: 15rem 0 12rem 0;
+	background-image: url('../img/maze-black.png');
+}
+
+
+#samplefour .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+#samplefour .back {
+	letter-spacing: 3px;
+	font-size: 15vw;
+	line-height: 1.2em;
+	text-align: center;
+	color: #fadcdc;
+}
+
+#samplefour .front {
+	letter-spacing: 8px;
+	font-size: 1.5vw;
+	line-height: 3em;
+	text-align: center;
+	color: #1d833c;
+	position: absolute;
+	top: 43%;
+	left: 0;
+	right: 0;
+    padding: 5px;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+#samplefour .back {
+	font-size: 35vw;
+}
+
+#samplefour .front {
+	font-size: 3vw;
+	line-height: 2em;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 45%;
+}
+}
