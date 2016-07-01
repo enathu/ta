@@ -270,7 +270,7 @@ body {
 @media only screen and (max-width : 768px) {
 
 #samplefour .back {
-	font-size: 35vw;
+	font-size: 20vw;
 }
 
 #samplefour .front {
@@ -282,3 +282,37 @@ body {
 	top: 45%;
 }
 }
+
+#glyphs .content {
+    background-color: #7e7e7e;
+	padding: 5rem 0 10rem 0;
+	background-image: url('../img/light-sketch.png');
+	background-position: center center;
+}
+
+#glyphs .front {
+    width: 600px;
+	color: #ffffff;
+	font-size: 2.4em;
+	line-height: 1.4em;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+/* Media Query */
+
+@media only screen and (max-width : 480px) {
+#glyphs .content {
+	background-size: 50%;
+}
+
+#glyphs .front {
+	width: 280px;
+	color: #20252f;
+	font-size: 1.4em;
+	line-height: 1.2em;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+	}
