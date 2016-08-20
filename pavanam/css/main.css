@@ -31,7 +31,7 @@ body {
 	margin-right: auto;
 	margin-top: 80px;
 	text-align: left;
-		-webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
 	-moz-column-gap: 30px; /* Firefox */
 	column-gap: 30px;
     font-size: 1em;
