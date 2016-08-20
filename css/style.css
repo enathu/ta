@@ -10,13 +10,13 @@ body{
 }
 
 ::selection {
-		background: #fd0;
+		background: #D4B15A;
 		color: #222;
 		text-shadow: none;
 	}
 	
 	::-moz-selection {
-		background: #fd0;
+		background: #D4B15A;
 		color: #222;
 		text-shadow: none;
 	}
@@ -175,7 +175,7 @@ ul.menu-fullscreen li > a:hover{
 }
 
 #full svg:hover {
-    fill: #fd0; 
+    fill: #D4B15A; 
 }
 
 #fullscreen{
@@ -243,7 +243,7 @@ ul.social-icon a:hover{
   top: 30px;
   z-index: 99999;
   padding:20px;
-  background:#fd0;
+  background:#D4B15A;
   cursor:pointer;
   border-radius: 30px;
 }
@@ -384,11 +384,11 @@ CONTENT
 
 .two-column a{
   color: #000;
-  border-bottom: 1px solid #fd0;
+  border-bottom: 1px solid #D4B15A;
 }
 
 .two-column a:hover{
- border: 1px solid #fd0;
+ border: 1px solid #D4B15A;
     padding: 2px;
 }
 
@@ -587,7 +587,7 @@ li.grid-item{
   height: 100%;
   top:0;
   background: #f0eee7;
-  border: 4px solid #fd0;
+  border: 4px solid #D4B15A;
   z-index: 2;
   opacity: 0;
   -webkit-transition: all 0.2s ease-in;
@@ -690,7 +690,7 @@ footer{
 
 .social .social-links a:hover{
   color:#c3c3c3;
-  border-bottom: 1px solid #fd0;
+  border-bottom: 1px solid #D4B15A;
 }
 
 
